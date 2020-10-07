@@ -11,6 +11,6 @@ exports.handler = async (event) => {
     } catch (err) {
         // error handling goes here
     };
-
+// comment in 2nd open
     return { "message": "Successfully executed" };
 };
