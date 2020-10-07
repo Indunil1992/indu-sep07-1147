@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "899ed00d-3e37-4bf3-9495-805ed392b3f3": {
+        "id": "899ed00d-3e37-4bf3-9495-805ed392b3f3",
+        "parent": null,
+        "name": "indu-sep07-1147.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indu-sep07-1147.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "induSep071147"
+        },
+        "triggers": [],
+        "lastUpdated": 1602051497773,
+        "testCases": {
+          "badb6b32-5df3-4ca0-9359-40f13b117568": {
+            "id": "badb6b32-5df3-4ca0-9359-40f13b117568",
+            "name": "Test event",
+            "functionId": "899ed00d-3e37-4bf3-9495-805ed392b3f3",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "899ed00d-3e37-4bf3-9495-805ed392b3f3"
+    ],
+    "currentFileId": "899ed00d-3e37-4bf3-9495-805ed392b3f3",
+    "resources": {
+      "s3induuuu": {
+        "name": "s3induuuu",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "induuuu"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.3.1",
+    "projectName": "indu-sep07-1147",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1602051547275
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indu-sep07-1147",
+      "url": "https://github.com/Indunil1992/indu-sep07-1147"
+    }
+  }
+}
