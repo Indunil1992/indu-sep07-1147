@@ -22,7 +22,12 @@
           "layers": [],
           "name": "induSep071147"
         },
-        "triggers": [],
+        "triggers": [
+          {
+            "resourceName": "apigindunilcalqainduany",
+            "config": {}
+          }
+        ],
         "lastUpdated": 1602051497773,
         "testCases": {
           "badb6b32-5df3-4ca0-9359-40f13b117568": {
@@ -48,6 +53,25 @@
           "bucket": {
             "name": "induuuu"
           }
+        }
+      },
+      "apigindunilcalqainduany": {
+        "name": "apigindunilcalqainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "indunilcal",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
         }
       }
     },
@@ -88,7 +112,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1602051547275
+    "lastSave": 1602052025979
   },
   "VCS_STATE": {
     "provider": "GitHub",
